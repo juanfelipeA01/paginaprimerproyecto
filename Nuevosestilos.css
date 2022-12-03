@@ -1,0 +1,116 @@
+
+body {
+    background-image: url(imagenesejercicio/slide.jpg);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* CONTENIDO DEL HEADER  */
+.header{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.header img{
+    width: 250px;
+    height: 100px;
+    background-color: black;
+    padding: 35px;
+    border-radius: 10px;
+}
+/*  CONTENIDO MENU  */
+.menu li {
+    list-style: none;
+    text-align: center;
+    margin-top: 25px;
+    display: inline-block;
+    display: block;
+    float: right;
+}
+li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    width: 100px;
+}
+.menu a:hover{
+    background-color: white;
+    color:black;
+}
+.menu{
+    height: 150px;
+}
+/* COLUMNAS */
+.col h2{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    width: 140px;
+    height: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.col{
+    width: 220px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 40px;
+}
+.row{
+    text-align: center;
+}
+.col p{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+/* FOOTER */
+.col2 {
+    margin-left: 50px;
+    text-align: center;
+    display: flex;
+}
+.col2 h2{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 140px;
+    height: 20px;
+    text-align: center;
+    margin: 30px;
+}
+.col2 p{
+    text-align: justify;
+    background-color:black ;
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.col2 a{
+    color: rgb(169, 224, 255);
+}
+.footer {
+    margin-top: 100px;
+    text-align: center;
+}
+/*Contacto*/
+#contacto{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+#contacto iframe{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.col-lg-6{
+    display: inline-block;
+    vertical-align: top;
+}
